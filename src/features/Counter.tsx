@@ -5,7 +5,7 @@ import {
   increment,
   incrementByAmount,
 } from "../store/state/counter/counterSlice";
-import "./Counter.module.css";
+// import "./Counter.module.css";
 export function Counter() {
   const count = useAppSelector((state) => state.counter.value);
   const dispatch = useAppDispatch();

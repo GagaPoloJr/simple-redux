@@ -1,0 +1,11 @@
+// please carefully for import, because the hierarchical of scss read from top to bottom
+@charset 'utf-8';
+@use "sass:map";
+
+@use "abstracts/__abstract-dir";
+@use "base/reset";
+@use "base/base";
+
+body {
+  font-family: map-get($font-families, "OpenSans");
+}
