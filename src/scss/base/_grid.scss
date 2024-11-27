@@ -1,0 +1,9 @@
+%grid {
+  display: grid;
+  grid-template-columns: repeat($columns, 1fr);
+  gap: $gap;
+  grid-gap: $gap;
+}
+.grid {
+  @extend %grid;
+}

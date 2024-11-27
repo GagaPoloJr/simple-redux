@@ -1,11 +1,17 @@
 // please carefully for import, because the hierarchical of scss read from top to bottom
 @charset 'utf-8';
+@use "sass:color";
 @use "sass:map";
 
-@use "abstracts/__abstract-dir";
+@use "abstracts/__abstract-dir" as *;
 @use "base/reset";
 @use "base/base";
 
-body {
-  font-family: map-get($font-families, "OpenSans");
+html {
+  scroll-behavior: smooth;
+  body {
+    background-color: $bgColor;
+    font-family: map-get($font-families, "OpenSans");
+    color: $white;
+  }
 }

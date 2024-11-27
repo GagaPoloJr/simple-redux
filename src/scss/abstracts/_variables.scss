@@ -1,15 +1,5 @@
-$breakpoints: (
-  "extra-small": 480,
-  "small": 640,
-  "medium": 768,
-  "large": 1024,
-  "extra-large": 1280,
-);
 
-$primary: #ffcc00;
-$secondary: #4b4b4b;
-$tertiary: #4b4b4b;
-
+/** =============     FONT        ============= */
 $font-sizes: (
   "xxs": 12px,
   "xs": 14px,
@@ -25,5 +15,18 @@ $font-weights: (
 $font-families: (
   "Inter": "Inter, system-ui, Avenir, Helvetica, Arial, sans-serif",
   "Montserrat": "Montserrat, sans-serif",
-  "OpenSans": "Open Sans, sans-serif",
+  "OpenSans": "Open Sans",
 );
+
+/** =============     GRID & BREAKPOINTS       ============= */
+
+$breakpoints: (
+  "extra-small": 480,
+  "small": 640,
+  "medium": 768,
+  "large": 1024,
+  "extra-large": 1280,
+);
+
+$columns: 12;
+$gap: 30px;
